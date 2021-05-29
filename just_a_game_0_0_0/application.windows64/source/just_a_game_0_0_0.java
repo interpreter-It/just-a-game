@@ -24,7 +24,7 @@ public void draw() {
 }
   public void settings() {  size(1500, 1000); }
   static public void main(String[] passedArgs) {
-    String[] appletArgs = new String[] { "--present", "--window-color=#666666", "--stop-color=#cccccc", "just_a_game_0_0_0" };
+    String[] appletArgs = new String[] { "just_a_game_0_0_0" };
     if (passedArgs != null) {
       PApplet.main(concat(appletArgs, passedArgs));
     } else {
